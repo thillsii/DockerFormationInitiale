@@ -29,6 +29,7 @@ ENV HEARTBEATSTEP $hbs
 
 # information utile des ports réseau qu'ouvre le container (facultatif)
 #EXPOSE 1234/udp 4321/tcp
+EXPOSE 8080/tcp
 
 # commande exécutée au RUN du container
 # si pas défini explicitement il vaut par défaut /bin/sh -c
